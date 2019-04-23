@@ -19,8 +19,8 @@
 
       <title>Navbars</title>
       <!-- common local css stylesheet -->
+      <link rel="stylesheet" href="assets/css/contactus.css">
       <link rel="stylesheet" href="assets/css/index.css">
-      <link rel="stylesheet" href="assets/css/homepage/css">
 	 </head>
 
 <body>
@@ -57,11 +57,39 @@
 			<div class="row">
 					
 					<div class="col-sm-8">
-							<img src="assets\images\studio22.jpg" alt="" class="center">
-							<br>
+							<img src="assets\images\studio1.jpg" alt="" class="center">
+                            <br>
+                            <div class="container">
+                                    <form action="action_page.php" class="center">
+                                  
+                                      <label for="fname">First Name</label>
+                                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                  
+                                      <label for="lname">Last Name</label>
+                                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                  
+                                      <label for="country">Country</label>
+                                      <select id="country" name="country">
+                                        <option value="australia">Korea</option>
+                                        <option value="canada">Australia</option>
+                                        <option value="usa">USA</option>
+                                      </select>
+                                  
+                                      <label for="subject">Subject</label>
+                                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                  
+                                      <input type="submit" value="Submit">
+                                  
+                                    </form>
+                                  </div>
+
 					</div>
-							<h2>		Zoo Labs empowers artists as community, cultural, and business leaders by teaching them business, 
-								supporting them as entrepreneurs and directing resources towards their ventures.</h2>
+							<h5>		CONTACT
+                                    Want more info about our Music Entrepreneurship Accelerator? Interested in getting involved? Want to come by and see our space?
+                                    
+                                    We are open for visitors by appointment. Drop us a line to schedule a visit!
+                                    
+                                    Click these links if you’re interested in becoming a mentor or volunteering at Zoo Labs.</h5>
 				
 								<br>
 								<div class="padding"></div>
@@ -91,3 +119,9 @@
 </html>
 
 
+
+
+</head>
+
+<body>
+	<div class="text-center red"></div>
